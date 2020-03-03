@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World!AutomaticDeploy!"}
+		res := &response{Message: "Hello World!AutomaticDeploy!SIN LAMBDA"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
